@@ -20,17 +20,21 @@
     {
       "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe",
-      "server": "209.33.167.234",
+      "server": "140.235.38.206",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/channels/act?ed=2560 ",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -47,7 +51,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
