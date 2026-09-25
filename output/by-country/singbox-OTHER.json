@@ -6,23 +6,14 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.132.194",
-      "server_port": 443,
-      "uuid": "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90",
-      "tls": {
-        "enabled": true,
-        "server_name": "3-m13.AYuttHAya-8.kdNs.FR",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "cdn.snobvpn.online",
+      "server_port": 80,
+      "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
       "transport": {
         "type": "ws",
-        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "path": "/snob-ws",
         "headers": {
-          "Host": "3-m13.AYuttHAya-8.kdNs.FR"
+          "Host": "cdn.snobvpn.online"
         }
       }
     },

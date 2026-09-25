@@ -5,20 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.132.194
-  port: 443
+  server: cdn.snobvpn.online
+  port: 80
   udp: true
   type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  tls: true
-  servername: 3-m13.AYuttHAya-8.kdNs.FR
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   network: ws
   ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
+    path: /snob-ws
     headers:
-      Host: 3-m13.AYuttHAya-8.kdNs.FR
+      Host: cdn.snobvpn.online
 proxy-groups:
 - name: PROXIES
   type: select
