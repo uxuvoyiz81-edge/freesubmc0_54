@@ -5,23 +5,28 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe",
-      "server": "89.125.96.93",
-      "server_port": 2053,
-      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
+      "server": "185.147.27.105",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "tls": {
         "enabled": true,
-        "server_name": "wss.zazazuza.ru",
+        "server_name": "ap2.directly.chat",
         "insecure": false,
         "alpn": [
+          "h2",
           "http/1.1"
-        ]
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/vpn-wss/fluxor/59011/",
+        "path": "/md/1",
         "headers": {
-          "Host": "wss.zazazuza.ru"
+          "Host": "ap2.directly.chat"
         }
       }
     },
@@ -30,14 +35,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
