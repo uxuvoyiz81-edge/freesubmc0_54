@@ -12,20 +12,8 @@
       "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
-      "type": "trojan",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - xiaohe",
-      "server": "de1.dedushka.top",
-      "server_port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de1.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - xiaohe",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - xiaohe",
       "server": "146.70.124.85",
       "server_port": 443,
       "uuid": "40abbe13-f02e-4da2-9b19-966c2c3eb4ee",
@@ -42,6 +30,18 @@
           "public_key": "byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE",
           "short_id": "fe24f8a0a560056e"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - xiaohe",
+      "server": "de1.dedushka.top",
+      "server_port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de1.dedushka.top",
+        "insecure": true
       }
     },
     {
