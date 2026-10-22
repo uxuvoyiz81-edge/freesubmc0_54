@@ -13,7 +13,7 @@ proxies:
   sni: pl2.dedushka.top
   skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: pl1.dedushka.top
+  server: 31.133.0.182
   port: 443
   udp: true
   type: trojan
